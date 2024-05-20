@@ -1,0 +1,214 @@
+
+/* styling desktop title bar, logo bar and navbar */
+.title-bar {
+    width: 100%;
+    min-height: 3rem;
+    background-color: #3c4b4d;
+
+}
+
+.logo-bar-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.logo-bar-desktop img{
+    width: 6rem;
+    height: auto;
+    display: block;
+    transition: width 0.5s;
+}
+
+.logo-bar-desktop img:hover {
+    width: 6.5rem;
+
+}
+
+.logo-bar-desktop span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-bar-desktop {
+    background-color: #3c4b4d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, 
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.navbar-links a {
+    color: rgb(213, 209, 209);
+    text-decoration: none;
+    display: block;
+
+}
+
+.navbar-links .current {
+    color: white;
+    font-weight: bold;
+}
+
+/* hide dropdown */
+.navbar-links .drop-down-desktop {
+    display: none;
+}
+
+/* display dropdown when links are hoverd */
+
+.drop-down-container-desktop:hover .drop-down-desktop{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #3c4b4d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, 
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.drop-down-desktop a{
+    padding: 0.8rem 0.5rem;
+    transition: all 0.5s;
+}
+
+.drop-down-desktop a:hover{
+    background-color: #47595c;
+
+}
+
+
+
+/* For Smaller Screen */
+
+/* hide mobile header container */
+.header-container-mobile {
+    display: none;
+    width: 100%;
+}
+
+/* styling mobile logo bar  */
+.logo-bar-mobile {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, 
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    width: 100%;
+    background-color: white;
+}
+
+.logo-bar-mobile img {
+    width: 3rem;
+    height: auto;
+    display: block;
+}
+
+.logo-bar-mobile span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.logo-bar-mobile .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.mobile-menu span{
+    width: 30px;
+    height: 5px;
+    margin: 2px;
+    background-color: black;  
+
+}
+
+
+/* styling mobiel Navbar */
+
+/* hide mobile navbar at first */
+.nav-bar-mobile {
+    background-color: #3c4b4d;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+.nav-bar-mobile::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    height: 0; /* Remove scrollbar space */
+}
+/* display mobile navbar using script */
+.nav-bar-mobile.active {
+    display: block;
+}
+
+.nav-bar-mobile .navbar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0px;
+}
+
+.nav-bar-mobile .navbar-links a {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.nav-bar-mobile .navbar-links a:hover {
+    background-color: #47595c;
+} 
+
+/* Hide drop-down links for mobile */
+.drop-down-mobile {
+    display: none;
+}
+
+/* display drop-down links for mobile when clicked*/
+.drop-down-mobile.active {
+    display: block;
+}
+
+.drop-down-mobile a{
+    font-size: 1rem;
+    background-color: #354143;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .logo-bar-desktop {
+        display: none;
+    }
+
+    .nav-bar-desktop {
+        display: none;
+    }
+
+    .header-container-mobile {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 4;
+    }
+}

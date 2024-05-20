@@ -1,0 +1,50 @@
+.executive-committee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #354143;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.executive-committee h2 {
+    margin: 1.5rem 1rem;
+    font-size: 2.5rem;
+}
+
+.ec-binner {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.ec-binner .ec-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ec-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidd5en;
+
+}
+
+.ec-box.feacture {
+    grid-column: span 2;
+    
+}
+
+
+/* span 2 cols for president and voice president */
+@media screen and (max-width: 750px) {
+    .ec-binner {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+

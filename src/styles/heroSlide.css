@@ -1,0 +1,83 @@
+.hero-slider 
+{
+    margin: 4rem 2rem;
+    display: none;  /* first hide all slide*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    animation: fade 6s infinite alternate;
+    
+}
+
+/* create animation for slider */
+
+@keyframes fade {
+    0% {opacity: 0; background-color: black;} /* Starting opacity */
+    25% {opacity: 1; background-color: white;} /* Fade in complete */
+    75% {opacity: 1;background-color: white;} /* Fade out complete */
+    100% {opacity: 0;background-color: black;} /* Back to initial opacity */
+}
+
+/* display slide that have class name active */
+.hero-slider.active {
+    display: flex;
+}
+
+.hero-slider .slider-img-container {
+    width: 50%;
+    background-color: black;
+
+}
+
+.slider-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.6;
+    overflow: hidden;
+    
+
+}
+
+.hero-slider .slider-discription-container {
+    width: 50%;
+    height: auto;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.slider-discription-container a {
+    background-color: #354143;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.slider-discription-container a:hover {
+    opacity: 1;
+    font-size: 1.2rem;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .hero-slider {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .hero-slider .slider-img-container{
+        width: 100%;
+    }
+
+    .hero-slider .slider-discription-container{
+        width: 100%;
+        padding: 2rem;
+    }
+}

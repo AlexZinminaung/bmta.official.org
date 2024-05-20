@@ -1,0 +1,96 @@
+.office-admin-binner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+/* styling heading for admin */
+.office-admin-binner h2 {
+    margin: 2rem;
+    
+}
+
+/* set the contain as a grid */
+.office-admin-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.office-admin-container .admin-box {
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    flex-basis: 30%;
+    min-width: 200px;
+    
+
+}
+
+.admin-box .admin-img-container {
+    width: 50%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+
+}
+
+.admin-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.admin-box .admin-label {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    color: rgb(58, 231, 104);
+}
+
+.admin-label a {
+    color: #212228;
+    text-decoration: none;
+    transition: all 1.5s;
+}
+
+.admin-label a:hover {
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 750px) {
+  .admin-label h3, h4 {
+    font-size: 0.8rem;
+  }
+
+  .admin-label a {
+    font-size: 0.8rem;
+  }
+
+  .admin-box {
+    flex-grow: 1;
+  }
+
+  .office-admin-container .admin-box{
+    flex-direction: column;
+  }
+
+  .admin-box .admin-img-container {
+    width: 100%;
+  }
+  .admin-box .admin-label {
+    width: 100%;
+  }
+
+}
