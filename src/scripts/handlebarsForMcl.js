@@ -46,7 +46,7 @@ let context = {
         grade:"Nursery - Grade 10",
         address: '165, Moo 2, Soi 2, Mae Pa, Mae Sot, Tak, 63110, Thailand',
         src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.4476617078412!2d98.5780628!3d16.7543892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dda380d31840a9%3A0xa0e68ee1dd0100f7!2sHeavenly%20home%20Learning%20Center!5e0!3m2!1sen!2sth!4v1716207992539!5m2!1sen!2sth" 
-    },
+    }
 
     // {
     //     schoolName: "",
@@ -54,7 +54,8 @@ let context = {
     //     grade:"",
     //     address: '',
     //     src:""
-    // }]
+    // }
+]
 }
 
 let html = template(context);
