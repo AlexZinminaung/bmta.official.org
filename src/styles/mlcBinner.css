@@ -4,10 +4,12 @@
     gap: 2rem;
     justify-content: center;
     align-items: center;
+
 }
 
 .mcl-binner h1 {
     margin-top: 3rem;
+    text-align: center;
 }
 
 .mcl-container {
@@ -41,7 +43,7 @@
     overflow: hidden;
     height: 0;
     transition: all 1s;
-    
+    text-align: center;
 }
 
 .mcl-box .mcl-drop-box.active {
@@ -71,11 +73,13 @@
 
     .mcl-container {
         width: 90%;
+        padding: 0px;
+        padding-bottom: 1rem;
     }
 
     .mcl-container .mcl-box {
         min-width: 250px;
-        padding: 2rem;
+        
     }
     
 }

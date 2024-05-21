@@ -46,8 +46,29 @@ let context = {
         grade:"Nursery - Grade 10",
         address: '165, Moo 2, Soi 2, Mae Pa, Mae Sot, Tak, 63110, Thailand',
         src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.4476617078412!2d98.5780628!3d16.7543892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dda380d31840a9%3A0xa0e68ee1dd0100f7!2sHeavenly%20home%20Learning%20Center!5e0!3m2!1sen!2sth!4v1716207992539!5m2!1sen!2sth" 
-    }
+    },
 
+    {
+        schoolName: "Home",
+        principal: "Daw Kay Thi Mon",
+        grade:"Nursery - Grade 4, Grade 6, Grade 8",
+        address: 'Pho Phra',
+        src:"https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d30617.42726204814!2d98.7514484!3d16.4157631!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDI0JzU0LjEiTiA5OMKwNDUnNTAuNSJF!5e0!3m2!1sen!2sth!4v1716300370261!5m2!1sen!2sth"
+    },
+    {
+        schoolName: "Kaw Tha Blay",
+        principal: "Saw Tun Naung",
+        grade:"Unknown Grade",
+        address: '245 Moo 9,Taung Tam,Mae Tan,Tha Song Yang,Tak,63150',
+        src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.8698862160195!2d98.20224879999999!3d17.2735287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dce76bc3455669%3A0x30080a88e622caf2!2sKaw%20Tha%20Blay%20Learning%20Center!5e0!3m2!1sen!2sth!4v1716300507859!5m2!1sen!2sth"
+    },
+    {
+        schoolName: "Light",
+        principal: "Daw Thet Thet Zaw",
+        grade:"Nursery, Grade 1 - Grade 3, Grade 5, Grade 6",
+        address: 'Mae Pa, Moo-10,Cow market',
+        src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8770864343337!2d98.55140633386291!3d16.73882923327202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dda152daef7edd%3A0xeb6916df6402318d!2zTGlnaHQgTGVhcm5pbmcgQ2VudGVy4YCh4YCc4YCE4YC64YC44YCb4YCx4YCs4YCE4YC64YCb4YC94YCx4YC34YCV4YC84YCx4YCs4YCE4YC64YC44YCZ4YC84YCU4YC64YCZ4YCs4YCA4YC74YCx4YCs4YCE4YC64YC4!5e0!3m2!1sen!2sth!4v1716300671494!5m2!1sen!2sth"
+    },
     // {
     //     schoolName: "",
     //     principal: "",
@@ -55,6 +76,7 @@ let context = {
     //     address: '',
     //     src:""
     // }
+
 ]
 }
 

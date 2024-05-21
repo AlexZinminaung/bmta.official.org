@@ -10,6 +10,7 @@
 /* styling heading for admin */
 .office-admin-binner h2 {
     margin: 2rem;
+    text-align: center;
     
 }
 
@@ -26,7 +27,7 @@
     flex-direction: row;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     flex-basis: 30%;
-    min-width: 200px;
+    min-width: 100px;
     
 
 }

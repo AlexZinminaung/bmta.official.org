@@ -114,7 +114,7 @@
 }
 
 .logo-bar-mobile img {
-    width: 3rem;
+    width: 4.5rem;
     height: auto;
     display: block;
 }
@@ -127,14 +127,14 @@
 .logo-bar-mobile .mobile-menu {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .mobile-menu span{
-    width: 30px;
-    height: 5px;
-    margin: 2px;
-    background-color: black;  
+    width: 40px;
+    height: 8px;
+    margin: 3px;
+    background-color: rgb(34, 33, 33);  
 
 }
 
@@ -211,4 +211,15 @@
         top: 0;
         z-index: 4;
     }
+    .logo-bar-mobile {
+        gap: 1rem;
+    }
+    .logo-bar-mobile span {
+        font-size: 1rem;
+        font-weight: bold;
+        
+    }
+
+
+    
 }
