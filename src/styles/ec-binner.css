@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #354143;
     color: aliceblue;
-    padding: 1rem;
+    padding: 2rem 10rem;
 }
 
 .executive-committee h2 {
@@ -46,6 +46,10 @@
 @media screen and (max-width: 750px) {
     .ec-binner {
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .executive-committee {
+        padding: 1rem 2rem;
     }
 }
 
