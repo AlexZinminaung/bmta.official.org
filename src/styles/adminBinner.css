@@ -9,8 +9,8 @@
 
 /* styling heading for admin */
 .office-admin-binner h2 {
-    margin: 2rem;
-    text-align: center;
+    margin: 0.5rem;
+    text-align: left;
     
 }
 
@@ -53,8 +53,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem;
-    padding: 0.5rem;
+    gap: 0.1rem;
+    padding: 0.2rem;
     overflow: hidden;
     color: #35363d;
 }
@@ -62,8 +62,7 @@
 .admin-label a {
     color: #212228;
     text-decoration: none;
-    transition: all 1.5s;
-    padding: 0.4em;
+    padding: 0.1em;
 }
 
 .admin-label a:hover {
@@ -100,6 +99,7 @@
     border: 1px solid #35363d;
     color: #35363d;
     min-width: 70%;
+    padding: 0.5rem;
     
   }
 

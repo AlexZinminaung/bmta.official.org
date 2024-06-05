@@ -19,6 +19,7 @@
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
     padding: 1rem 10%;
+    min-width: 800px;
 }
 
 .ec-binner .ec-box {
@@ -46,6 +47,7 @@
 @media screen and (max-width: 750px) {
     .ec-binner {
         grid-template-columns: repeat(2,1fr);
+        min-width: 200px;
     }
 
     .executive-committee {
