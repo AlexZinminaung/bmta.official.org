@@ -148,7 +148,7 @@
     position: absolute;
     width: 100%;
     z-index: 3;
-    max-height: calc(100vh - 80px);
+    max-height: calc(100vh - 100px);
     overflow-y: auto;
 }
 
@@ -170,7 +170,7 @@
 
 .nav-bar-mobile .navbar-links a {
     display: block;
-    padding: 0.5rem;
+    padding: 0.8rem;
     text-align: center;
 }
 

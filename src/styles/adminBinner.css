@@ -56,7 +56,7 @@
     gap: 0.4rem;
     padding: 0.5rem;
     overflow: hidden;
-    color: rgb(58, 231, 104);
+    color: #35363d;
 }
 
 .admin-label a {
@@ -97,8 +97,8 @@
 
   .admin-label a {
     text-align: center;
-    background-color: #35363d;
-    color: aliceblue;
+    border: 1px solid #35363d;
+    color: #35363d;
     min-width: 70%;
     
   }
